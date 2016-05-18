@@ -1,0 +1,75 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cce6eff5"
+    tools:context="nsu.sazid.buttontextintent.MainActivity">
+
+    <Button
+        android:text="Khulna"
+        android:id="@+id/button3"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:textColor="#f9f7f7"
+        android:layout_gravity="center"
+        android:layout_marginTop="130dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_shape"/>
+    <Button
+        android:text="Sylhet"
+        android:id="@+id/button2"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:textColor="#f9f7f7"
+        android:background="@drawable/button_shape"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:text="Barisal"
+        android:onClick="getdata"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:background="@drawable/button_shape"
+        android:textColor="#f9f7f7"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="30dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/button1"
+        android:text="Dhaka"
+        android:onClick="onClickReset"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:background="@drawable/button_shape"
+        android:textColor="#f9f7f7"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:text="Contact"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:background="@drawable/button_shape"
+        android:textColor="#f9f7f7"
+        android:layout_gravity="center"
+        android:layout_marginBottom="110dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp" />
+    <TextView
+        android:text="Welcome!!"
+        android:textSize="30sp"
+        android:textColor="#0e0e0e"
+        android:layout_gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</FrameLayout>
